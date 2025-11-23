@@ -3,11 +3,9 @@
     <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
 </head>
 
-
-
 <body>
-    <div class="container">
-    <h2>Predicted dbs price is {{r}}</h2>
+<div class="container">
+    <h2>Predicted share price is {{r}}</h2>
     <form action="/main" method="post">
         <input type="submit" value="Main">
     </form>

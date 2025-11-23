@@ -1,5 +1,6 @@
 from flask import Flask,request,render_template
 import joblib
+import scikit-learn
 
 app = Flask(__name__)
 
